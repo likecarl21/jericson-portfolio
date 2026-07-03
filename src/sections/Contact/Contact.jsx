@@ -1,5 +1,5 @@
 import "../../styles/contact.css";
-import resume from "../../assets/resume/Jericson_Pajotal_Resume.pdf";
+import resume from "../../assets/Resume/Jericson_Pajotal_Resume.pdf";
 function Contact() {
   return (
     <section className="contact" id="contact">
