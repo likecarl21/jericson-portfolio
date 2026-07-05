@@ -512,3 +512,36 @@
     transform:translateX(6px);
 
 }
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media (max-width: 900px){
+
+    .training-grid{
+        grid-template-columns:1fr;
+    }
+
+    .projects-header h2{
+        font-size:2.2rem;
+    }
+}
+
+@media (max-width: 600px){
+
+    .projects{
+        padding:70px 6% 60px;
+    }
+
+    .project-card,
+    .training-card,
+    .workflow-card{
+        padding:26px;
+    }
+
+    .project-card h3,
+    .training-card h3{
+        font-size:1.6rem;
+    }
+}

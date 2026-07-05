@@ -4,9 +4,9 @@ function SearchTermAnalysisSection() {
 
       <h3>Search Term Analysis</h3>
       <p className="analysis-intro">
-  I reviewed the Search Term Report and evaluated each keyword using
-  campaign performance, shopper intent, and product relevance to
-  determine the best optimization action.
+  Here's how I thought through each search term. The client was worried
+  about wasted spend, so the goal was to cut what's clearly not working
+  without killing traffic that could still turn into sales.
 </p>
       <div className="analysis-overview">
       <div className="analysis-timeline">
@@ -18,29 +18,25 @@ function SearchTermAnalysisSection() {
           <div className="analysis-content">
 
             <h4>
-  Hydrolyzed Collagen Peptides
+  Memory Foam Pillow
 </h4>
 
 <div className="analysis-meta">
 
   <span className="analysis-badge scale">
-    Scale
+    Keep
   </span>
 
   <div className="analysis-metrics">
 
-    <span>82 Clicks</span>
-
-    <span>12 Orders</span>
-
-    <span>21% ACOS</span>
+    <span>29.6% ACOS</span>
 
   </div>
 
 </div>
 
 <p>
-  This search term generated 82 clicks, 12 orders, and maintained a 21% ACOS. It closely matches the product and produced consistent conversions. Based on the available data, I would continue scaling this keyword because it is delivering efficient results.
+  This is the main product keyword, and at 29.6% ACOS it's under the 35% target. It's making money and it's exactly what the product is. I'd keep it running and leave it alone.
 </p>
 
           </div>
@@ -53,10 +49,17 @@ function SearchTermAnalysisSection() {
 
           <div className="analysis-content">
 
-            <h4>Marine Collagen Supplement</h4>
+            <h4>Pillow for Neck Pain</h4>
+
+            <div className="analysis-meta">
+              <span className="analysis-badge scale">Keep</span>
+              <div className="analysis-metrics">
+                <span>29.2% ACOS</span>
+              </div>
+            </div>
 
             <p>
-              This keyword achieved 7 orders with the lowest ACOS in the report at 18%. The search intent is highly relevant to the product, making it another strong performer that deserves additional investment.
+              At 29.2% ACOS, this one is also under target and profitable. It matches a real reason people buy a memory foam pillow, so I'd keep it. No change needed.
             </p>
 
           </div>
@@ -69,10 +72,17 @@ function SearchTermAnalysisSection() {
 
           <div className="analysis-content">
 
-            <h4>Collagen Powder</h4>
+            <h4>Hotel Pillow</h4>
+
+            <div className="analysis-meta">
+              <span className="analysis-badge monitor">Investigate</span>
+              <div className="analysis-metrics">
+                <span>50% ACOS</span>
+              </div>
+            </div>
 
             <p>
-              Although this search term received the highest number of clicks, its ACOS was higher than the strongest performers. I would continue monitoring this keyword before making a larger optimization decision because additional data may provide a clearer trend.
+              50% ACOS is over target, so it's tempting to cut it. But "hotel pillow" is a real thing people search when they want that soft, plush feel — it might still fit the product. Before negating, I'd check if it's converting at all and whether a lower bid brings the ACOS down. Investigate first, then decide.
             </p>
 
           </div>
@@ -85,10 +95,17 @@ function SearchTermAnalysisSection() {
 
           <div className="analysis-content">
 
-            <h4>Hair Vitamins</h4>
+            <h4>Cooling Pillow</h4>
+
+            <div className="analysis-meta">
+              <span className="analysis-badge monitor">Investigate</span>
+              <div className="analysis-metrics">
+                <span>62% ACOS</span>
+              </div>
+            </div>
 
             <p>
-              This keyword generated clicks but did not produce any orders, resulting in a 92% ACOS. It also has weak relevance to the advertised product, so I would recommend adding it as a negative keyword to reduce wasted ad spend.
+              At 62% ACOS this is losing money right now. But a memory foam pillow could genuinely be a cooling pillow if it has that feature. The high ACOS might just mean the bid is too high, not that the keyword is bad. I'd look closer before killing it.
             </p>
 
           </div>
@@ -101,10 +118,17 @@ function SearchTermAnalysisSection() {
 
           <div className="analysis-content">
 
-            <h4>Protein Powder</h4>
+            <h4>Bed Pillow</h4>
+
+            <div className="analysis-meta">
+              <span className="analysis-badge monitor">Investigate</span>
+              <div className="analysis-metrics">
+                <span>133% ACOS</span>
+              </div>
+            </div>
 
             <p>
-              This search term is too broad for the product and produced only one order while reaching an 81% ACOS. Based on its performance and relevance, I would also recommend adding it as a negative keyword.
+              133% ACOS looks like an obvious negative. But here's the thing — "bed pillow" is broad, not irrelevant. A memory foam pillow IS a bed pillow. The problem is probably that it's too general and pulling the wrong shoppers, not that it's the wrong product. Instead of negating outright, I'd try it as a lower bid or move it to a tighter match type first. Killing it completely could lose sales that are actually there.
             </p>
 
           </div>
@@ -120,32 +144,27 @@ function SearchTermAnalysisSection() {
     <h4>Overall Assessment</h4>
 
     <p>
-      After reviewing the entire Search Term Report, I found that the strongest
-      decisions came from looking at multiple factors together rather than
-      relying on a single metric.
+      The two profitable keywords were easy — keep them. The real thinking
+      was on the three high-ACOS terms. The lazy move is to negate anything
+      over target, but all three are still related to a memory foam pillow.
     </p>
 
     <p>
-      Campaign performance, shopper intent, and product relevance all played an
-      important role in deciding whether a keyword should be scaled,
-      monitored, or added as a negative keyword.
+      So instead of killing them, I'd investigate first — check if the bid
+      is too high or the match type is too broad before spending any money
+      cutting traffic that might actually be worth keeping.
     </p>
 
     <div className="decision-summary">
 
       <div className="decision-item">
-        <span className="badge-scale">Scale</span>
+        <span className="badge-scale">Keep</span>
         <span>2 Keywords</span>
       </div>
 
       <div className="decision-item">
-        <span className="badge-monitor">Monitor</span>
-        <span>1 Keyword</span>
-      </div>
-
-      <div className="decision-item">
-        <span className="badge-negative">Negative</span>
-        <span>2 Keywords</span>
+        <span className="badge-monitor">Investigate</span>
+        <span>3 Keywords</span>
       </div>
 
     </div>

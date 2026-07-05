@@ -36,7 +36,7 @@ const handleBack = () => {
       </span>
 
       <p className="case-intro">
-        This project is based on a training scenario completed to practice Amazon PPC search term analysis. The recommendations reflect my own evaluation of the available campaign data and shopper intent.
+        This is a practice scenario I worked through to sharpen my Amazon PPC decision-making. A client selling a premium memory foam pillow was worried about spending too much on some keywords. My job was to look at the search term report and decide what to do with each one — without killing traffic that could still be worth keeping.
       </p>
 
     </header>

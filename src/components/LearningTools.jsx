@@ -21,8 +21,6 @@ function LearningTools() {
 
         <div className="tools-grid">
 
-          <div className="tools-grid">
-
   <span>ChatGPT</span>
   <span>Notion</span>
   <span>Claude</span>
@@ -35,8 +33,6 @@ function LearningTools() {
   <span>Visual Studio Code</span>
 
 </div>
-
-        </div>
 
       </div>
 

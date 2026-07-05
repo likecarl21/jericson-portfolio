@@ -1074,7 +1074,7 @@ padding: 0;
 
 .overview-report .report-header,
 .overview-report .report-row {
-  grid-template-columns: 2.2fr 0.7fr 0.7fr 0.7fr 0.9fr;
+  grid-template-columns: 2.4fr 0.9fr 1.1fr;
 }
 
 .overview-report .report-header span,
@@ -1106,7 +1106,7 @@ padding: 0;
 
   .overview-report .report-header,
   .overview-report .report-row {
-    grid-template-columns: 2fr 0.8fr 0.8fr 0.8fr 1fr;
+    grid-template-columns: 2.2fr 0.9fr 1.1fr;
   }
 }
 

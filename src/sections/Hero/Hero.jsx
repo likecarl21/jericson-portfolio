@@ -16,15 +16,15 @@ function Hero() {
     </h1>
 
     <p className="hero-tag">
-      Junior Amazon PPC Specialist
+      Aspiring Amazon PPC Specialist
     </p>
 
     <p className="hero-introduction">
-      I spent more than 4 years helping customers solve problems in technical support and customer service roles. That experience taught me how to analyze situations, find the root cause of issues, and solve problems step by step.
+      For 4+ years, I worked in technical support and customer service. Every day was about figuring out what actually went wrong for someone, and fixing it — not just following a script.
     </p>
 
     <p className="hero-introduction">
-      Now, I'm applying those same skills to Amazon PPC through Search Term Analysis, Campaign Performance Analysis, and optimization projects.
+      Now I'm putting that same mindset into Amazon PPC. I dig into search terms, campaign data, and performance numbers to figure out what's working and what's wasting money.
     </p>
 
     <div className="hero-buttons">

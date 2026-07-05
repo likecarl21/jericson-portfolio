@@ -1,13 +1,13 @@
-import dexcom1 from "../assets/experience/dexcom1.png";
-import dexcom2 from "../assets/experience/dexcom2.png";
-import dexcom3 from "../assets/experience/dexcom3.png";
-import dexcom4 from "../assets/experience/dexcom4.png";
-import dexcom5 from "../assets/experience/dexcom5.png";
+import dexcom1 from "../assets/experience/dexcom1.jpg";
+import dexcom2 from "../assets/experience/dexcom2.jpg";
+import dexcom3 from "../assets/experience/dexcom3.jpg";
+import dexcom4 from "../assets/experience/dexcom4.jpg";
+import dexcom5 from "../assets/experience/dexcom5.jpg";
 
-import sitel1 from "../assets/experience/sitel1.png";
-import sitel2 from "../assets/experience/sitel2.png";
-import sitel3 from "../assets/experience/sitel3.png";
-import sitel4 from "../assets/experience/sitel4.png";
+import sitel1 from "../assets/experience/sitel1.jpg";
+import sitel2 from "../assets/experience/sitel2.jpg";
+import sitel3 from "../assets/experience/sitel3.jpg";
+import sitel4 from "../assets/experience/sitel4.jpg";
 const experienceData = {
   dexcom: {
     company: "Dexcom",
@@ -23,7 +23,7 @@ const experienceData = {
 ],
 
     learned:
-      "Working in technical support taught me how to stay calm, analyze problems, and make decisions based on available information. Those same skills now help me review Amazon PPC data and think through optimization decisions.",
+      "Tech support taught me to stay calm under pressure and think through problems instead of guessing. I use that same approach now when I'm looking at PPC numbers and figuring out what to do next.",
 
     skills: [
       "Problem Solving",
@@ -58,7 +58,7 @@ const experienceData = {
 ],
 
     learned:
-      "Customer service helped me become more patient, organized, and detail-oriented. It also strengthened my communication skills, which are valuable when explaining recommendations and working with clients.",
+      "Customer service made me more patient and organized, and taught me how to explain things clearly — which matters a lot when you're telling a client why you're recommending a change to their campaign.",
 
     skills: [
       "Communication",

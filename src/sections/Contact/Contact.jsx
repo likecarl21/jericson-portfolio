@@ -18,8 +18,9 @@ function Contact() {
 
           <p className="contact-intro">
             Thanks for visiting my portfolio.
-            If you'd like to talk about Amazon PPC or an opportunity
-            to work together, I'd be happy to hear from you.
+            I'm currently open to Amazon PPC opportunities, whether that's
+            a full-time role or freelance work. If you'd like to talk,
+            I'd be happy to hear from you.
           </p>
 
         </div>

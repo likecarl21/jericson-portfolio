@@ -81,3 +81,14 @@
     box-shadow:0 0 8px rgba(56,189,248,.18);
 
 }
+
+@media (max-width: 600px){
+
+    .learning-tools{
+        padding:80px 0;
+    }
+
+    .learning-tools h2{
+        font-size:2.1rem;
+    }
+}

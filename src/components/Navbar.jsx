@@ -1,32 +1,59 @@
 import "../styles/navbar.css";
+import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 function Navbar() {
   const location = useLocation();
   const isHomePage = location.pathname === "/";
+  const [isOpen, setIsOpen] = useState(false);
+
+  const closeMenu = () => setIsOpen(false);
+
+  useEffect(() => {
+    setIsOpen(false);
+  }, [location.pathname]);
+
+  const homeLinks = [
+    { href: "#about", label: "About" },
+    { href: "#projects", label: "Projects" },
+    { href: "#experience", label: "Experience" },
+    { href: "#contact", label: "Contact" },
+  ];
 
   return (
     <nav className="navbar">
 
-      <Link to="/" className="logo">
+      <Link to="/" className="logo" onClick={closeMenu}>
         JP.
       </Link>
 
-      <ul className="nav-links">
+      <button
+        className={`nav-toggle ${isOpen ? "open" : ""}`}
+        onClick={() => setIsOpen((prev) => !prev)}
+        aria-label="Toggle navigation menu"
+        aria-expanded={isOpen}
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
+      <ul className={`nav-links ${isOpen ? "show" : ""}`}>
         {isHomePage ? (
-          <>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </>
+          homeLinks.map((link) => (
+            <li key={link.href}>
+              <a href={link.href} onClick={closeMenu}>
+                {link.label}
+              </a>
+            </li>
+          ))
         ) : (
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" onClick={closeMenu}>
+              Home
+            </Link>
           </li>
         )}
-
       </ul>
 
     </nav>

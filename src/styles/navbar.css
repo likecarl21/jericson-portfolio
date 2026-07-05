@@ -62,3 +62,110 @@
 
 }
 
+/* ==========================
+   Mobile Toggle Button
+========================== */
+
+.nav-toggle{
+
+    display:none;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    gap:6px;
+
+    width:34px;
+
+    height:34px;
+
+    background:transparent;
+
+    border:none;
+
+    padding:0;
+
+    z-index:1001;
+
+}
+
+.nav-toggle span{
+
+    display:block;
+
+    width:100%;
+
+    height:2px;
+
+    background:#ffffff;
+
+    border-radius:2px;
+
+    transition:
+        transform .25s ease,
+        opacity .25s ease;
+
+}
+
+.nav-toggle.open span:nth-child(1){
+    transform:translateY(8px) rotate(45deg);
+}
+
+.nav-toggle.open span:nth-child(2){
+    opacity:0;
+}
+
+.nav-toggle.open span:nth-child(3){
+    transform:translateY(-8px) rotate(-45deg);
+}
+
+/* ==========================
+   Responsive Navbar
+========================== */
+
+@media (max-width: 768px){
+
+    .navbar{
+        padding:22px 24px;
+        position:relative;
+        flex-wrap:wrap;
+    }
+
+    .nav-toggle{
+        display:flex;
+    }
+
+    /* Hidden state: collapsed, nothing visible */
+    .navbar .nav-links{
+        display:none;
+        width:100%;
+        flex-direction:column;
+        align-items:stretch;
+        gap:0;
+        margin-top:18px;
+        list-style:none;
+        padding:0;
+    }
+
+    /* Open state: force vertical stacked list */
+    .navbar .nav-links.show{
+        display:flex;
+    }
+
+    .navbar .nav-links li{
+        width:100%;
+        text-align:center;
+        list-style:none;
+        border-top:1px solid rgba(255,255,255,.08);
+    }
+
+    .navbar .nav-links a{
+        display:block;
+        width:100%;
+        padding:18px 0;
+        color:#ffffff;
+        font-size:1.1rem;
+        font-weight:600;
+    }
+}

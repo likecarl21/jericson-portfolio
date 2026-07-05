@@ -37,7 +37,7 @@ function Projects() {
   </h3>
 
   <h4>
-    Premium Collagen Supplement Case Study
+    Memory Foam Pillow — Training Scenario
   </h4>
 
   <div className="card-divider"></div>
@@ -47,7 +47,7 @@ function Projects() {
     <h5>Project Overview</h5>
 
     <p>
-      I reviewed the Search Term Report to understand how customers searched for a product and identified which search terms should be scaled, monitored, or added as negative keywords.
+      A client was worried about wasted spend on some keywords. I went through the search term report and decided what to keep, what to negate, and what to look into first — without killing traffic that could still turn into sales.
     </p>
 
   </div>
@@ -84,9 +84,9 @@ function Projects() {
     </h3>
     <hr className="project-divider" />
     <p>
-        Learn how I reviewed campaign metrics such as ACOS, CTR, CPC,
-        clicks, and conversions to identify opportunities for improvement
-        and decide what optimization actions to take next.
+        See how I read a full campaign — ACOS, CTR, CPC, clicks, and
+        conversions together — to figure out what's working, what isn't,
+        and what to fix first.
     </p>
 
     <span className="project-link">
@@ -107,7 +107,9 @@ function Projects() {
     </h3>
     <hr className="project-divider" />
     <p>
-    Learn how I translated campaign analysis into a practical optimization plan by identifying improvement opportunities, prioritizing actions, and recommending strategies to improve overall campaign performance.
+    See how I turned the campaign findings into a real plan — investigate
+    the cause, make careful changes, then check the results before doing
+    anything permanent.
     </p>
 
     <span className="project-link">

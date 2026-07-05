@@ -35,12 +35,10 @@ const handleBack = () => {
 
           <h1>Campaign Performance Analysis</h1>
 
-          <h2>Premium Collagen Supplement Case Study</h2>
+          <h2>Memory Foam Pillow — Training Scenario</h2>
 
           <p className="case-intro">
-            This training project demonstrates how I reviewed campaign
-            performance before making optimization recommendations using
-            multiple PPC metrics and business context.
+            This is a practice scenario I worked through to sharpen how I read a whole campaign, not just one number. The client felt things "could be doing better" and wanted to know where the money was going. My job was to look at the full picture and figure out what's working, what isn't, and what to do first.
           </p>
 
         </div>
@@ -52,9 +50,9 @@ const handleBack = () => {
             <h3>Project Overview</h3>
 
             <p>
-              This training project focused on reviewing campaign performance
-              using key PPC metrics to understand how the campaign was performing
-              before making optimization recommendations.
+              I looked at the campaign as a whole instead of reacting to one
+              number. The goal was to understand the campaign's health first,
+              then decide what to actually do about it.
             </p>
 
           </div>
@@ -64,10 +62,9 @@ const handleBack = () => {
             <h3>Objective</h3>
 
             <p>
-              Evaluate campaign performance by reviewing ACOS, CTR, CPC,
-              clicks, conversions, spend, and sales while considering
-              the overall business objective before deciding on the next
-              optimization step.
+              Read ACOS, CTR, CPC, clicks, conversion rate, spend, and sales
+              together to figure out where the money is going and what to fix
+              first — without panicking over one metric.
             </p>
 
           </div>
@@ -87,9 +84,8 @@ const handleBack = () => {
   </h2>
 
   <p>
-    Before evaluating campaign metrics, I reviewed the campaign objective
-    and overall context to better understand how performance should be
-    measured during this training scenario.
+    Before looking at the numbers, here's the product and what the client
+    actually asked for. That context decides how I read every metric.
   </p>
 
 </div>
@@ -102,24 +98,25 @@ const handleBack = () => {
     <tbody>
 
       <tr>
-        <td><strong>Campaign</strong></td>
-        <td>Premium Collagen Supplement</td>
+        <td><strong>Product</strong></td>
+        <td>Premium Memory Foam Pillow — $59.99</td>
       </tr>
 
       <tr>
-        <td><strong>Campaign Type</strong></td>
-        <td>Sponsored Products</td>
+        <td><strong>Profit Before Ads</strong></td>
+        <td>$25 per unit</td>
       </tr>
 
       <tr>
-        <td><strong>Scenario</strong></td>
-        <td>Training Project</td>
+        <td><strong>Target ACOS</strong></td>
+        <td>35% (break-even is around 42%)</td>
       </tr>
 
       <tr>
-        <td><strong>Primary Goal</strong></td>
+        <td><strong>Client Ask</strong></td>
         <td>
-          Maintain profitable sales while improving conversion efficiency.
+          "Things look okay but I feel like we could be doing better.
+          Tell me what's working, what isn't, and where my money is going."
         </td>
       </tr>
 
@@ -168,49 +165,49 @@ const handleBack = () => {
 
       <tr>
         <td>ACOS</td>
-        <td>27%</td>
-        <td>Acceptable</td>
+        <td>38%</td>
+        <td>Over target, still profitable</td>
       </tr>
 
       <tr>
         <td>CTR</td>
-        <td>2.8%</td>
-        <td>Strong</td>
+        <td>0.34%</td>
+        <td>A bit low — worth a look</td>
       </tr>
 
       <tr>
         <td>CPC</td>
-        <td>$0.82</td>
+        <td>$1.15</td>
         <td>Reasonable</td>
       </tr>
 
       <tr>
         <td>Clicks</td>
-        <td>352</td>
-        <td>Good Traffic</td>
+        <td>410</td>
+        <td>Decent traffic</td>
       </tr>
 
       <tr>
         <td>Orders</td>
-        <td>29</td>
-        <td>Healthy Sales</td>
+        <td>27</td>
+        <td>Steady sales</td>
       </tr>
 
       <tr>
         <td>Conversion Rate</td>
-        <td>8.2%</td>
-        <td>Needs Improvement</td>
+        <td>6.6%</td>
+        <td>Fine, room to improve</td>
       </tr>
 
       <tr>
         <td>Spend</td>
-        <td>$288</td>
-        <td>Within Budget</td>
+        <td>$472</td>
+        <td>Within budget</td>
       </tr>
 
       <tr>
         <td>Sales</td>
-        <td>$1,065</td>
+        <td>$1,242</td>
         <td>Profitable</td>
       </tr>
 
@@ -228,23 +225,23 @@ const handleBack = () => {
   <div className="analysis-list">
 
     <div className="analysis-item">
-      ✓ Reviewed campaign performance as a whole.
+      <strong>ACOS is 38%, target is 35%.</strong> That's over target, but break-even is around 42% — so the campaign is still making money, just not as much as we want. That's the difference between "needs work" and "emergency." This one isn't an emergency.
     </div>
 
     <div className="analysis-item">
-      ✓ Compared ACOS, CTR, CPC, clicks, conversions, and sales.
+      <strong>CTR is 0.34%, which is a little low.</strong> A low CTR usually isn't about the campaign — it's about what people see before they click: the main image, price, title, and star rating. So this points me toward checking the listing, not just the ads.
     </div>
 
     <div className="analysis-item">
-      ✓ Considered the business objective before making recommendations.
+      <strong>Conversion rate is 6.6% — fine, with room to grow.</strong> People who click are buying at a reasonable rate, so the listing is converting okay once they land on it.
     </div>
 
     <div className="analysis-item">
-      ✓ Looked for opportunities to improve efficiency without reducing sales.
+      <strong>The money is going to clicks that mostly work.</strong> $472 spent, $1,242 in sales. The spend isn't wasted — but the slightly-high ACOS tells me something in there could be tightened, which is worth investigating.
     </div>
 
     <div className="analysis-item">
-      ✓ Avoided making decisions based on one metric alone.
+      <strong>I read the metrics together, not one at a time.</strong> One number alone can be misleading. The full picture here is: profitable, healthy, but with a couple of things worth a closer look.
     </div>
 
   </div>
@@ -255,23 +252,15 @@ const handleBack = () => {
 <div className="recommendation-section">
 
   <h2>
-    Optimization Recommendation
+    My Recommendation
   </h2>
 
   <p>
-
-    Based on the available campaign data, I recommended
-    focusing on improving conversion rate while maintaining
-    profitable traffic.
-
+    My first move isn't to slash bids to force ACOS down to 35%. Since the campaign is still above break-even, panic-cutting could kill traffic that's actually profitable and leave the client making less money overall.
   </p>
 
   <p>
-
-    The recommendation was supported by multiple campaign
-    metrics rather than relying on a single performance
-    indicator.
-
+    Instead: investigate first. Check the search term report to find what's pushing ACOS up, and look at the listing to see why CTR is low. Then make changes based on what I find, and watch the results over the next week before doing anything drastic.
   </p>
 
 </div>
@@ -288,13 +277,13 @@ const handleBack = () => {
 
     <span>Campaign Analysis</span>
 
-    <span>Performance Evaluation</span>
+    <span>Reading Metrics Together</span>
 
-    <span>Business Thinking</span>
+    <span>Break-Even Awareness</span>
 
-    <span>PPC Reasoning</span>
+    <span>Profitability Thinking</span>
 
-    <span>Optimization Strategy</span>
+    <span>Prioritization</span>
 
   </div>
 

@@ -1,1 +1,318 @@
-/* PPC Optimization Plan styles */
+.case-study-page{
+    min-height:100vh;
+    background:#0f172a;
+    color:#fff;
+    padding:120px 0 80px;
+}
+
+.back-button-wrapper{
+    margin-bottom:50px;
+}
+
+.back-button{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    background:transparent;
+    border:none;
+    color:#38bdf8;
+    font-size:1rem;
+    font-weight:600;
+    cursor:pointer;
+    padding:0;
+    font-family:inherit;
+    transition:.25s;
+}
+
+.back-button:hover{
+    color:#7dd3fc;
+    text-shadow:0 0 12px rgba(56,189,248,.5);
+}
+
+.case-container{
+    width:min(1200px,92%);
+    margin:0 auto;
+}
+
+.case-hero{
+    text-align:center;
+    margin-bottom:70px;
+}
+
+.case-hero h1{
+    font-size:3rem;
+    font-weight:700;
+    margin-bottom:12px;
+}
+
+.case-hero h2{
+    color:#38bdf8;
+    font-size:1.4rem;
+    margin-bottom:24px;
+}
+
+.case-intro{
+    max-width:760px;
+    margin:0 auto;
+    line-height:1.8;
+    color:#cbd5e1;
+}
+
+/* ===========================
+   Project Overview
+=========================== */
+
+.project-overview-grid{
+    margin-bottom:90px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+    margin-top:70px;
+}
+
+.overview-card{
+    background:linear-gradient(
+        180deg,
+        #182544 0%,
+        #131d35 100%
+    );
+    border:1px solid rgba(56,189,248,.15);
+    border-radius:24px;
+    padding:32px;
+    transition:.3s;
+}
+
+.overview-card:hover{
+    border-color:#38bdf8;
+    box-shadow:0 20px 40px rgba(56,189,248,.12);
+}
+
+.overview-card h3{
+    font-size:1.5rem;
+    margin-bottom:18px;
+}
+
+.overview-card p{
+    color:#cbd5e1;
+    line-height:1.9;
+}
+
+/* ===========================
+   Performance Table
+=========================== */
+
+.performance-table{
+    margin:50px auto 90px;
+    max-width:900px;
+    overflow:hidden;
+    border-radius:20px;
+    border:1px solid rgba(56,189,248,.15);
+    background:#182544;
+}
+
+.performance-table table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.performance-table thead{
+    background:#223155;
+}
+
+.performance-table th{
+    padding:20px;
+    text-align:left;
+    font-size:1rem;
+    color:#ffffff;
+}
+
+.performance-table td{
+    padding:18px 20px;
+    color:#cbd5e1;
+    border-top:1px solid rgba(255,255,255,.06);
+}
+
+.performance-table tbody tr{
+    transition:.25s;
+}
+
+.performance-table tbody tr:hover{
+    background:#223155;
+}
+
+.table-heading{
+    max-width:760px;
+    margin:0 auto 35px;
+    text-align:center;
+}
+
+.table-heading h2{
+    font-size:1.8rem;
+    margin-bottom:24px;
+    color:#ffffff;
+}
+
+.table-heading p{
+    max-width:760px;
+    margin:0 auto;
+    color:#cbd5e1;
+    line-height:1.8;
+    font-size:1rem;
+}
+
+/* ===========================
+   Overview / Product Info Table
+=========================== */
+
+.overview-table{
+    max-width:900px;
+    margin:40px auto 70px;
+    overflow:hidden;
+    border-radius:18px;
+    border:1px solid rgba(56,189,248,.18);
+    transition:.3s;
+}
+
+.overview-table:hover{
+    border-color:#38bdf8;
+    box-shadow:0 0 30px rgba(56,189,248,.18);
+}
+
+.overview-table table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.overview-table td{
+    padding:20px 28px;
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.overview-table tr:last-child td{
+    border-bottom:none;
+}
+
+.overview-table td:first-child{
+    width:240px;
+    font-weight:700;
+    color:#ffffff;
+    background:#25345d;
+}
+
+.overview-table td:last-child{
+    color:#e2e8f0;
+    background:#1d2a4b;
+}
+
+/* ===========================
+   Recommendation
+=========================== */
+
+.recommendation-section{
+    max-width:760px;
+    margin:90px auto;
+    text-align:center;
+    background:#1b2746;
+    border:1px solid rgba(56,189,248,.15);
+    border-radius:24px;
+    padding:50px 45px;
+    transition:.3s;
+}
+
+.recommendation-section:hover{
+    border-color:#38bdf8;
+    box-shadow:0 0 30px rgba(56,189,248,.18);
+}
+
+.recommendation-section h2{
+    font-size:2rem;
+    margin-bottom:25px;
+}
+
+.recommendation-section p{
+    color:#cbd5e1;
+    line-height:1.9;
+    font-size:1.05rem;
+}
+
+.recommendation-section p + p{
+    margin-top:22px;
+}
+
+/* ===========================
+   Skills Demonstrated
+=========================== */
+
+.skills-section{
+    max-width:900px;
+    margin:90px auto;
+    text-align:center;
+}
+
+.skills-section h2{
+    font-size:2rem;
+    margin-bottom:35px;
+}
+
+.skills-grid{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:18px;
+}
+
+.skills-grid span{
+    padding:14px 24px;
+    background:#1b2746;
+    border:1px solid rgba(56,189,248,.20);
+    border-radius:999px;
+    color:#38bdf8;
+    font-weight:600;
+    transition:
+        background .25s ease,
+        color .25s ease,
+        border-color .25s ease,
+        box-shadow .25s ease;
+}
+
+.skills-grid span:hover{
+    background:#1b2746;
+    color:#ffffff;
+    border-color:#38bdf8;
+    box-shadow:0 0 4px rgba(56,189,248,.15);
+}
+
+/* ===========================
+   Continue Section
+=========================== */
+
+.continue-section{
+    margin:100px auto 40px;
+    text-align:center;
+}
+
+.continue-section p{
+    color:#cbd5e1;
+    font-size:1.1rem;
+    margin-bottom:30px;
+}
+
+.continue-button{
+    display:inline-block;
+    padding:18px 36px;
+    border-radius:999px;
+    background:#38bdf8;
+    color:#0f172a;
+    font-weight:700;
+    text-decoration:none;
+    border:none;
+    font-family:inherit;
+    font-size:1rem;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.continue-button:hover{
+    transform:translateY(-3px);
+    box-shadow:0 0 30px rgba(56,189,248,.35);
+}

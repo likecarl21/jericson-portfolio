@@ -67,15 +67,15 @@ function PPCOptimizationPlan() {
           </h1>
 
           <h2>
-            Premium Collagen Supplement Case Study
+            Memory Foam Pillow — Training Scenario
           </h2>
 
           <p className="case-intro">
 
-            This project demonstrates how I analyze Amazon PPC campaign performance and develop an
-  optimization strategy using campaign reports and search term data. The recommendations are
-  based on Amazon PPC training scenarios and focus on improving profitability while supporting
-  the client's business goals.
+            This is the next step after the campaign analysis. Once I've read
+            the numbers and know what's working, this page is my actual plan:
+            what I'd do first, what I'd do next, and how I'd check if it
+            worked — without making changes I can't undo.
 
           </p>
 
@@ -91,11 +91,9 @@ function PPCOptimizationPlan() {
 
             <p>
 
-              This training project focused on identifying optimization
-              opportunities after reviewing campaign performance and
-              search term data. The goal was to recommend practical
-              actions that improve efficiency while supporting the
-              client's overall business objectives.
+              This follows my campaign analysis. The plan is built around one
+              idea: the campaign is profitable but not perfect, so I fix what's
+              worth fixing without breaking what already works.
 
             </p>
 
@@ -109,10 +107,9 @@ function PPCOptimizationPlan() {
 
             <p>
 
-              Analyze campaign performance, identify optimization
-              opportunities, reduce wasted ad spend, and recommend
-              actions that improve overall account performance while
-              aligning with the client's business objectives.
+              Turn the campaign findings into a clear, step-by-step plan —
+              investigate the real cause, make careful changes, then check the
+              results before doing anything permanent.
 
             </p>
 
@@ -128,9 +125,8 @@ function PPCOptimizationPlan() {
   </h2>
 
   <p>
-    Before planning optimization actions, I reviewed the product's
-    business goals and advertising targets to understand what success
-    should look like.
+    Same product and numbers as the campaign analysis, so the plan connects
+    directly to what I found there.
   </p>
 
 </div>
@@ -143,27 +139,27 @@ function PPCOptimizationPlan() {
 
       <tr>
         <td>Product</td>
-        <td>Premium Collagen Supplement</td>
+        <td>Premium Memory Foam Pillow</td>
       </tr>
 
       <tr>
         <td>Selling Price</td>
-        <td>$39.99</td>
+        <td>$59.99</td>
       </tr>
 
       <tr>
         <td>Profit Before Ads</td>
-        <td>$18.00</td>
+        <td>$25.00</td>
       </tr>
 
       <tr>
         <td>Target ACOS</td>
-        <td>35%</td>
+        <td>35% (break-even around 42%)</td>
       </tr>
 
       <tr>
-        <td>Goal</td>
-        <td>Improve Profitability</td>
+        <td>Current ACOS</td>
+        <td>38% — over target, still profitable</td>
       </tr>
 
     </tbody>
@@ -176,18 +172,17 @@ function PPCOptimizationPlan() {
 <div className="table-heading">
 
   <h2>
-    Campaign Situation
+    What the Analysis Showed
   </h2>
 
   <p>
-    Four campaigns were active during this training scenario. Each campaign
-    served a different purpose within the account, so optimization decisions
-    were made by considering how they worked together rather than evaluating
-    individual campaigns in isolation.
+    From the campaign analysis, here's what I'm working with before making
+    any changes. The campaign is profitable, but two things stood out worth
+    looking into.
   </p>
 
 </div>
-        {/* Campaign Overview Table */}
+        {/* Findings Table */}
 
 <div className="performance-table">
 
@@ -197,11 +192,9 @@ function PPCOptimizationPlan() {
 
       <tr>
 
-        <th>Campaign</th>
+        <th>Finding</th>
 
-        <th>Performance</th>
-
-        <th>Observation</th>
+        <th>What It Means</th>
 
       </tr>
 
@@ -210,34 +203,33 @@ function PPCOptimizationPlan() {
     <tbody>
 
       <tr>
-        <td>Auto</td>
-        <td>Moderate</td>
+        <td>ACOS is 38% vs 35% target</td>
         <td>
-          Good for discovering new search terms but generated higher ACOS.
+          Over target but still above break-even, so it's profitable — just
+          not as efficient as it could be.
         </td>
       </tr>
 
       <tr>
-        <td>Manual Broad</td>
-        <td>Moderate</td>
+        <td>CTR is low at 0.34%</td>
         <td>
-          Generated sales but was less efficient than Phrase and Exact campaigns.
+          Points to the listing (image, price, title, rating), not the
+          campaign itself.
         </td>
       </tr>
 
       <tr>
-        <td>Manual Phrase</td>
-        <td>Strong</td>
+        <td>Conversion rate is 6.6%</td>
         <td>
-          Produced consistent conversions while maintaining lower ACOS.
+          Fine — people who click are buying at a reasonable rate.
         </td>
       </tr>
 
       <tr>
-        <td>Manual Exact</td>
-        <td>Best Performer</td>
+        <td>Spend is $472 for $1,242 in sales</td>
         <td>
-          Delivered the highest conversion rate and strongest profitability.
+          Money isn't being wasted, but something in the mix is pushing ACOS
+          up and is worth finding.
         </td>
       </tr>
 
@@ -251,13 +243,12 @@ function PPCOptimizationPlan() {
 <div className="table-heading">
 
   <h2>
-    Optimization Plan
+    My Plan
   </h2>
 
   <p>
-    Based on the campaign review, I identified several optimization actions
-    that could improve overall account performance while supporting the
-    client's profitability goals.
+    Based on what I found, here's the order I'd actually work in. The main
+    idea: don't break what's working while fixing what isn't.
   </p>
 
 </div>
@@ -270,11 +261,11 @@ function PPCOptimizationPlan() {
 
       <tr>
 
-        <th>Optimization Action</th>
+        <th>Step</th>
 
-        <th>Reason</th>
+        <th>What I'd Do</th>
 
-        <th>Expected Impact</th>
+        <th>Why</th>
 
       </tr>
 
@@ -284,71 +275,47 @@ function PPCOptimizationPlan() {
 
       <tr>
 
-        <td>Harvest High-Performing Search Terms</td>
+        <td>1. Investigate</td>
 
         <td>
-          Proven search terms generally perform better in Manual Exact campaigns.
+          Check the search term report to find what's pushing ACOS above
+          target, and look at the listing to see why CTR is low.
         </td>
 
         <td>
-          Higher conversion rate and stronger campaign efficiency.
-        </td>
-
-      </tr>
-
-      <tr>
-
-        <td>Investigate Weak Search Terms</td>
-
-        <td>
-          Determine whether poor performance is caused by shopper intent,
-          pricing, or listing quality.
-        </td>
-
-        <td>
-          Better optimization decisions before making permanent changes.
+          I don't want to change anything until I know the real cause. Guessing
+          wastes money.
         </td>
 
       </tr>
 
       <tr>
 
-        <td>Negate Irrelevant Search Terms</td>
+        <td>2. Act</td>
 
         <td>
-          Remove search terms that generate spend without meaningful results.
+          Based on what I find — lower a bid, tighten a match type, negate a
+          truly irrelevant term, or flag the listing for the client to improve.
         </td>
 
         <td>
-          Lower wasted advertising cost.
-        </td>
-
-      </tr>
-
-      <tr>
-
-        <td>Reallocate Campaign Budget</td>
-
-        <td>
-          Shift budget toward stronger-performing campaigns when appropriate.
-        </td>
-
-        <td>
-          Better return on ad spend.
+          Fix the actual problem instead of just forcing the ACOS number down.
         </td>
 
       </tr>
 
       <tr>
 
-        <td>Continue Monitoring</td>
+        <td>3. Observe</td>
 
         <td>
-          Avoid unnecessary optimization while campaigns remain stable.
+          Watch the results over the next week and compare against where we
+          started, then adjust again if needed.
         </td>
 
         <td>
-          Maintain consistent campaign performance.
+          One change isn't the end. I want to see if it actually helped before
+          doing more.
         </td>
 
       </tr>
@@ -363,13 +330,12 @@ function PPCOptimizationPlan() {
 <div className="table-heading">
 
   <h2>
-    Priority Order
+    Why Not Just Cut ACOS?
   </h2>
 
   <p>
-    Not every optimization should be completed at the same time. I prioritized
-    each action based on its potential business impact and the amount of wasted
-    advertising spend it could reduce.
+    The obvious move is to slash bids to hit the 35% target. Here's why that's
+    the wrong first step for this campaign.
   </p>
 
 </div>
@@ -382,11 +348,9 @@ function PPCOptimizationPlan() {
 
       <tr>
 
-        <th>Priority</th>
+        <th>The Tempting Move</th>
 
-        <th>Action</th>
-
-        <th>Reason</th>
+        <th>Why I'd Hold Off</th>
 
       </tr>
 
@@ -396,60 +360,34 @@ function PPCOptimizationPlan() {
 
       <tr>
 
-        <td>High</td>
-
-        <td>Remove Obvious Wasted Spend</td>
+        <td>Slash bids to force ACOS to 35%</td>
 
         <td>
-          Prevent unnecessary advertising costs before making other adjustments.
+          At 38% the campaign is still above break-even, so it's making money.
+          Cutting bids hard could lose clicks and orders that are actually
+          profitable — hitting the ACOS target but making less money overall.
         </td>
 
       </tr>
 
       <tr>
 
-        <td>High</td>
-
-        <td>Harvest Proven Search Terms</td>
+        <td>Negate every high-ACOS term</td>
 
         <td>
-          Strengthen high-performing campaigns with proven converting search terms.
+          Some high-ACOS terms are still relevant and could work with a lower
+          bid. Negating is permanent, so I'd investigate before cutting.
         </td>
 
       </tr>
 
       <tr>
 
-        <td>Medium</td>
-
-        <td>Investigate Weak Performers</td>
+        <td>Blame the campaign for low CTR</td>
 
         <td>
-          Confirm whether low performance is caused by shopper intent or listing quality.
-        </td>
-
-      </tr>
-
-      <tr>
-
-        <td>Medium</td>
-
-        <td>Review Campaign Budget Allocation</td>
-
-        <td>
-          Shift budget only when supported by campaign performance.
-        </td>
-
-      </tr>
-
-      <tr>
-
-        <td>Low</td>
-
-        <td>Continue Monitoring Stable Campaigns</td>
-
-        <td>
-          Avoid unnecessary changes while campaigns continue performing well.
+          Low CTR usually comes from the listing, not the ads. Throwing more
+          bid money at it won't fix a weak image or price.
         </td>
 
       </tr>
@@ -464,24 +402,21 @@ function PPCOptimizationPlan() {
 <div className="recommendation-section">
 
   <h2>
-    Optimization Recommendation
+    My Recommendation
   </h2>
 
   <p>
 
-    Based on the available campaign data, I would maintain the current
-    campaign structure while focusing on reducing wasted ad spend and
-    strengthening high-performing campaigns.
+    The campaign is profitable and healthy — it just isn't hitting the target
+    yet. So my plan isn't to panic and cut. It's to investigate what's pushing
+    ACOS up, check why CTR is low, make careful changes, and watch the results.
 
   </p>
 
   <p>
 
-    Search terms that consistently convert should continue to be leveraged
-    through Manual Exact campaigns, while weaker search terms should be
-    investigated before making permanent optimization decisions. Budget
-    adjustments should only be made when they support the client's
-    business objectives and campaign limitations.
+    That protects the sales the client already has while giving us room to
+    improve. Steady beats drastic when the campaign is already making money.
 
   </p>
 
@@ -498,21 +433,13 @@ function PPCOptimizationPlan() {
 
     <span>Campaign Performance Analysis</span>
 
-    <span>Search Term Analysis</span>
-
-    <span>PPC Optimization Strategy</span>
-
-    <span>Business Goal Alignment</span>
-
-    <span>Budget Allocation Analysis</span>
-
-    <span>Shopper Intent Analysis</span>
-
     <span>Profitability Thinking</span>
 
-    <span>Campaign Structure Analysis</span>
+    <span>Break-Even Awareness</span>
 
     <span>Data Interpretation</span>
+
+    <span>Prioritization</span>
 
     <span>Client Recommendation</span>
 

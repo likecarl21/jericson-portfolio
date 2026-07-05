@@ -25,12 +25,10 @@ function About() {
     <div className="story-text">
 
       <p>
-        Looking back at my time in technical support, I realized the part I
-        enjoyed most wasn't just solving the customer's problem. It was
-        understanding why the problem happened in the first place. I enjoyed
-        reviewing documentation, looking at the available information, and
-        finding a solution I could confidently recommend based on the
-        evidence.
+        Looking back, the part of tech support I actually liked wasn't
+        closing the ticket. It was figuring out why the problem happened in
+        the first place. I'd go through documentation, check what info I
+        had, and come up with an answer I was sure about.
       </p>
 
     </div>
@@ -56,11 +54,10 @@ function About() {
     <div className="story-text">
 
       <p>
-        After helping a customer, my role usually ended when the call was
-        over. I rarely had the opportunity to see whether the solution
-        continued to work or if it led to long-term improvement. That made me
-        appreciate work where progress can be measured, reviewed, and
-        improved over time.
+        The tricky part was, once the call ended, my job was done. I almost
+        never found out if my fix actually worked long-term. That's part of
+        why I want work where I can track results over time and actually
+        see if something's improving.
       </p>
 
     </div>
@@ -86,10 +83,9 @@ function About() {
         <div className="story-text">
 
       <p>
-        That's what attracted me to Amazon PPC. Every search term, campaign
-        adjustment, and performance report creates an opportunity to learn,
-        improve results, and make confident decisions backed by data and
-        evidence.
+        That's what got me interested in Amazon PPC. Every search term and
+        campaign report is something I can actually track, change, and see
+        the results of over time.
       </p>
 
     </div>

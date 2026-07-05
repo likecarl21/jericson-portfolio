@@ -18,21 +18,21 @@ function ProjectOverview() {
             </div>
 
             <div className="summary-item">
-              <span className="summary-label">Objective</span>
+              <span className="summary-label">Product</span>
+              <p>Premium Memory Foam Pillow — $59.99, $25 profit per unit</p>
+            </div>
+
+            <div className="summary-item">
+              <span className="summary-label">Target ACOS</span>
+              <p>35%</p>
+            </div>
+
+            <div className="summary-item">
+              <span className="summary-label">Client Concern</span>
               <p>
-                Review a Search Term Report and decide which keywords should
-                be scaled, monitored, or added as negative keywords.
+                "Sales are growing, but I'm worried about profitability.
+                I noticed we're spending a lot on some keywords."
               </p>
-            </div>
-
-            <div className="summary-item">
-              <span className="summary-label">Campaign Type</span>
-              <p>Amazon Sponsored Products</p>
-            </div>
-
-            <div className="summary-item">
-              <span className="summary-label">Decision Focus</span>
-              <p>Scale • Monitor • Negative Keywords</p>
             </div>
 
           </div>
@@ -43,60 +43,47 @@ function ProjectOverview() {
           <h4>Search Term Report</h4>
 
           <p className="case-description">
-            The table below contains the search terms I reviewed during this
-            training scenario. I evaluated each keyword using campaign
-            performance, shopper intent, and product relevance before deciding
-            whether it should be scaled, monitored, or added as a negative
-            keyword.
+            These are the search terms from the Auto campaign. I looked at each
+            one against the 35% target ACOS and decided what to do with it —
+            keep it, negate it, or dig deeper before making a call.
           </p>
 
           <div className="report-table">
 
             <div className="report-header">
               <span>Search Term</span>
-              <span>Clicks</span>
-              <span>Orders</span>
               <span>ACOS</span>
               <span>Decision</span>
             </div>
 
             <div className="report-row">
-              <span>hydrolyzed collagen peptides</span>
-              <span>82</span>
-              <span>12</span>
-              <span>21%</span>
-              <span className="badge-scale">Scale</span>
+              <span>memory foam pillow</span>
+              <span>29.6%</span>
+              <span className="badge-scale">Keep</span>
             </div>
 
             <div className="report-row">
-              <span>marine collagen supplement</span>
-              <span>46</span>
-              <span>7</span>
-              <span>18%</span>
-              <span className="badge-scale">Scale</span>
+              <span>pillow for neck pain</span>
+              <span>29.2%</span>
+              <span className="badge-scale">Keep</span>
             </div>
 
             <div className="report-row">
-              <span>collagen powder</span>
-              <span>95</span>
-              <span>8</span>
-              <span>33%</span>
-              <span className="badge-monitor">Monitor</span>
-            </div>
-                        <div className="report-row">
-              <span>hair vitamins</span>
-              <span>58</span>
-              <span>0</span>
-              <span>92%</span>
-              <span className="badge-negative">Negative</span>
+              <span>hotel pillow</span>
+              <span>50%</span>
+              <span className="badge-monitor">Investigate</span>
             </div>
 
             <div className="report-row">
-              <span>protein powder</span>
-              <span>71</span>
-              <span>1</span>
-              <span>81%</span>
-              <span className="badge-negative">Negative</span>
+              <span>cooling pillow</span>
+              <span>62%</span>
+              <span className="badge-monitor">Investigate</span>
+            </div>
+
+            <div className="report-row">
+              <span>bed pillow</span>
+              <span>133%</span>
+              <span className="badge-monitor">Investigate</span>
             </div>
 
           </div>

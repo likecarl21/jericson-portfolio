@@ -11,17 +11,17 @@ function Recommendations() {
           <div className="recommendation-row">
 
             <h4>
-              Scale High-Performing Keywords
+              Keep Profitable Keywords Running
             </h4>
 
             <span className="recommendation-badge scale">
-              Scale
+              Keep
             </span>
 
           </div>
 
           <p>
-            Continue investing in search terms that are highly relevant, generate consistent orders, and maintain an efficient ACOS.
+            Leave the keywords that are already under the target ACOS alone. They're making money and they match the product. No need to touch them.
           </p>
 
         </div>
@@ -31,17 +31,17 @@ function Recommendations() {
           <div className="recommendation-row">
 
             <h4>
-              Monitor Developing Keywords
+              Investigate Before Negating
             </h4>
 
             <span className="recommendation-badge monitor">
-              Monitor
+              Investigate
             </span>
 
           </div>
 
           <p>
-            Keep collecting additional data before making larger optimization decisions. A longer trend provides more confidence than a single snapshot.
+            For the high-ACOS terms that are still related to the product, check the bid and match type first. A high ACOS often means the bid is too high, not that the keyword is bad.
           </p>
 
         </div>
@@ -51,17 +51,17 @@ function Recommendations() {
           <div className="recommendation-row">
 
             <h4>
-              Add Irrelevant Keywords as Negative
+              Don't Kill Traffic Too Fast
             </h4>
 
             <span className="recommendation-badge negative">
-              Negative
+              Careful
             </span>
 
           </div>
 
           <p>
-            Exclude search terms with poor relevance, low conversions, and high advertising costs to reduce wasted ad spend.
+            Negating a keyword is permanent. Before cutting anything that's still relevant to the product, it's worth lowering the bid or tightening the match type to see if it can be saved.
           </p>
 
         </div>
