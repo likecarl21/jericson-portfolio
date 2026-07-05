@@ -16,7 +16,7 @@ function Hero() {
     </h1>
 
     <p className="hero-tag">
-      Aspiring Amazon PPC Specialist
+      Amazon PPC Virtual Assistant
     </p>
 
     <p className="hero-introduction">
