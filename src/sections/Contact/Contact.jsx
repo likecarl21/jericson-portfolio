@@ -77,7 +77,7 @@ function Contact() {
             </p>
           </a>
 
-          <div className="contact-card">
+          <div className="contact-card static">
 
             <h3>
               Location

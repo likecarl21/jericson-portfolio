@@ -90,6 +90,22 @@
 
 }
 
+.contact-card.static{
+
+    cursor:default;
+
+}
+
+.contact-card.static:hover{
+
+    transform:none;
+
+    border-color:rgba(56,189,248,.15);
+
+    box-shadow:none;
+
+}
+
 .contact-card h3{
 
     font-size:1.35rem;
