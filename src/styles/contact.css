@@ -52,6 +52,12 @@
 
 }
 
+.contact-grid > *:last-child{
+
+    grid-column: 1 / -1;
+
+}
+
 .contact-card{
 
     padding:35px;

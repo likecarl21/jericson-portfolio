@@ -64,6 +64,19 @@ function Contact() {
             </p>
           </a>
 
+          <a
+            href="https://v2.onlinejobs.ph/jobseekers/info/2332450"
+            target="_blank"
+            rel="noreferrer"
+            className="contact-card"
+          >
+            <h3>OnlineJobs.ph</h3>
+
+            <p>
+              View Profile →
+            </p>
+          </a>
+
           <div className="contact-card">
 
             <h3>
