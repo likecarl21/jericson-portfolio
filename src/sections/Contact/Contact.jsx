@@ -1,5 +1,4 @@
 import "../../styles/contact.css";
-import resume from "../../assets/Resume/Jericson_Pajotal_Resume.pdf";
 function Contact() {
   return (
     <section className="contact" id="contact">
@@ -105,7 +104,7 @@ function Contact() {
   </p>
 
   <a
-    href={resume}
+    href="/resume.pdf"
     download="Jericson_Pajotal_Resume.pdf"
     className="resume-button"
   >
