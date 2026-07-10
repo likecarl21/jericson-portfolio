@@ -19,7 +19,7 @@ function ProjectOverview() {
 
             <div className="summary-item">
               <span className="summary-label">Product</span>
-              <p>Premium Memory Foam Pillow — $59.99, $25 profit per unit</p>
+              <p>Premium Memory Foam Pillow, $59.99, $25 profit per unit</p>
             </div>
 
             <div className="summary-item">
@@ -37,14 +37,14 @@ function ProjectOverview() {
 
           </div>
 
-                </div>
-                <div className="overview-report">
+        </div>
+        <div className="overview-report">
 
           <h4>Search Term Report</h4>
 
           <p className="case-description">
             These are the search terms from the Auto campaign. I looked at each
-            one against the 35% target ACOS and decided what to do with it —
+            one against the 35% target ACOS and decided what to do with it:
             keep it, negate it, or dig deeper before making a call.
           </p>
 

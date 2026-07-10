@@ -12,15 +12,15 @@ const experienceData = {
   dexcom: {
     company: "Dexcom",
     role: "Technical Support Representative",
-    duration: "February 2023 — March 2026",
+    duration: "February 2023 to March 2026",
 
     responsibilities: [
-  "Helped customers fix issues with their Dexcom devices.",
-  "Found the cause of technical issues before providing a solution.",
-  "Documented every customer interaction while following company guidelines.",
-  "Worked with other teams to solve more complex issues.",
-  "Guided customers step by step over the phone."
-],
+      "Helped customers fix issues with their Dexcom devices.",
+      "Found the cause of technical issues before providing a solution.",
+      "Documented every customer interaction while following company guidelines.",
+      "Worked with other teams to solve more complex issues.",
+      "Guided customers step by step over the phone."
+    ],
 
     learned:
       "Tech support taught me to stay calm under pressure and think through problems instead of guessing. I use that same approach now when I'm looking at PPC numbers and figuring out what to do next.",
@@ -37,28 +37,28 @@ const experienceData = {
     ],
 
     photos: [
-  dexcom1,
-  dexcom2,
-  dexcom3,
-  dexcom4,
-  dexcom5
-]
+      dexcom1,
+      dexcom2,
+      dexcom3,
+      dexcom4,
+      dexcom5
+    ]
   },
 
   sitel: {
     company: "Sitel",
     role: "Customer Service Representative",
-    duration: "November 2021 — February 2023",
+    duration: "November 2021 to February 2023",
 
     responsibilities: [
-  "Helped customers through live chat.",
-  "Answered questions and solved customer concerns.",
-  "Handled several chats at the same time.",
-  "Recorded customer information after each conversation."
-],
+      "Helped customers through live chat.",
+      "Answered questions and solved customer concerns.",
+      "Handled several chats at the same time.",
+      "Recorded customer information after each conversation."
+    ],
 
     learned:
-      "Customer service made me more patient and organized, and taught me how to explain things clearly — which matters a lot when you're telling a client why you're recommending a change to their campaign.",
+      "Customer service made me more patient and organized, and taught me how to explain things clearly, which matters a lot when you're telling a client why you're recommending a change to their campaign.",
 
     skills: [
       "Communication",
@@ -66,14 +66,14 @@ const experienceData = {
       "Multitasking",
       "Documentation",
       "Attention to Detail",
-          ],
+    ],
 
     photos: [
-  sitel1,
-  sitel2,
-  sitel3,
-  sitel4
-]
+      sitel1,
+      sitel2,
+      sitel3,
+      sitel4
+    ]
   }
 };
 

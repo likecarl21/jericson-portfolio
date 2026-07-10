@@ -21,7 +21,7 @@ function KeyLearnings() {
           <h4>Broad Isn't the Same as Irrelevant</h4>
 
           <p>
-            "Bed pillow" was pulling a 133% ACOS, but a memory foam pillow is a bed pillow. The term was too general, not wrong — so cutting it outright could lose real sales.
+            "Bed pillow" was pulling a 133% ACOS, but a memory foam pillow is a bed pillow. The term was too general, not wrong, so cutting it outright could lose real sales.
           </p>
 
         </div>
