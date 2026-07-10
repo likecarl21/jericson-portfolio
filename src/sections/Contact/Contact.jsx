@@ -1,5 +1,4 @@
 import "../../styles/contact.css";
-import resume from "../../assets/Resume/Jericson_Pajotal_Resume.pdf";
 function Contact() {
   return (
     <section className="contact" id="contact">
@@ -64,7 +63,20 @@ function Contact() {
             </p>
           </a>
 
-          <div className="contact-card">
+          <a
+            href="https://v2.onlinejobs.ph/jobseekers/info/2332450"
+            target="_blank"
+            rel="noreferrer"
+            className="contact-card"
+          >
+            <h3>OnlineJobs.ph</h3>
+
+            <p>
+              View Profile →
+            </p>
+          </a>
+
+          <div className="contact-card static">
 
             <h3>
               Location
@@ -92,7 +104,7 @@ function Contact() {
   </p>
 
   <a
-    href={resume}
+    href="/resume.pdf"
     download="Jericson_Pajotal_Resume.pdf"
     className="resume-button"
   >
