@@ -20,7 +20,7 @@ function Hero() {
     </p>
 
     <p className="hero-introduction">
-      For 4+ years, I worked in technical support and customer service. Every day was about figuring out what actually went wrong for someone, and fixing it — not just following a script.
+      For 4+ years, I worked in technical support and customer service. Every day was about figuring out what actually went wrong for someone, and fixing it, not just following a script.
     </p>
 
     <p className="hero-introduction">
